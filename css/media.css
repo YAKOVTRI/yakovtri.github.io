@@ -167,7 +167,7 @@
     max-width: 300px;
   }
   #banner h2 {
-    padding-top: 100px;
+    padding-top: 80px;
   }
 }
 
@@ -177,6 +177,7 @@
   }
   section h2 {
     font-size: 24px;
+    padding-top: 50px;
   }
   section h3 {
     font-size: 20px;
@@ -193,6 +194,10 @@
   #banner .banner__text .text__subtitle {
     font-size: 12px;
   }
+  .banner__text p {
+    color: #fff;
+    margin: 0;
+}
   header {
     height: 60px;
   }
