@@ -146,12 +146,6 @@
   }
 }
 
-@media (max-width: 950px) {
-  #banner .banner__img {
-    max-width: 200px;
-  }
-}
-
 @media (max-width: 830px) {
   header .logo {
     font-size: 28px;
@@ -171,6 +165,9 @@
   #banner .banner__img {
     max-width: 300px;
   }
+  section h2 {
+    padding-top: 100px;
+}
 }
 
 @media (max-width: 540px) {
@@ -189,5 +186,8 @@
   }
   #banner .banner__text .text__subtitle {
     font-size: 12px;
+  }
+  header {
+    height: 50px;
   }
 }

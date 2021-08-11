@@ -212,7 +212,7 @@ header {
   position: fixed;
   width: 100%;
   height: 80px;
-  padding: 0 16%;
+  padding: 0 14%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -283,7 +283,7 @@ section {
   -ms-flex-align: center;
   align-items: center;
   min-height: 100vh;
-  padding: 20px 16% 20px;
+  padding: 20px 14% 20px;
 }
 
 section h2 {
@@ -351,7 +351,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 16% 0;
+  padding: 0 14% 0;
 
 }
 
@@ -370,14 +370,13 @@ body {
 
 .banner__text {
   position: relative;
-  max-width: 600px;
+  max-width: 700px;
   color: #fff;
   z-index: 2;
 }
 
 .banner__text p {
   color: #fff;
-  font-size: 1.5em;
   margin: 5px 0 25px;
 }
 
@@ -456,7 +455,6 @@ body {
 }
 
 .border li {
-  font-family: "Trebuchet MS", "Lucida Sans";
   padding: 7px 20px;
   margin-bottom: 10px;
   border-radius: 5px;
@@ -465,8 +463,6 @@ body {
     -2px -2px 5px 0 rgba(0, 0, 0, .1),
     2px 2px 5px 0 rgba(0, 0, 0, .1),
     -2px 2px 5px 0 rgba(0, 0, 0, .1);
-  font-size: 20px;
-  letter-spacing: 2px;
   transition: 0.3s all linear;
 }
 
@@ -577,11 +573,6 @@ details[open] summary:before {
   -moz-transform: rotate(90deg);
 }
 
-a[href^="tel:"]:before {
-  content: "\260e";
-  margin-right: 0.5em;
-}
-
 .wrapper .button{
   display: inline-block;
   height: 60px;
@@ -648,4 +639,8 @@ a[href^="tel:"]:before {
 }
 .wrapper .button:nth-child(4) span{
   color: #ff0000;
+}
+
+h1{
+  padding-top: 15px;
 }
