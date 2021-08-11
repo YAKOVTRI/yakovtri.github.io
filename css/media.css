@@ -214,4 +214,8 @@
     border-bottom: 1px currentColor dotted;
     font-size: 18px;
 }
+h1 {
+  padding-top: 10px;
+  font-size: 20px;
+}
 }
